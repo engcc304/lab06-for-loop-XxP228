@@ -23,7 +23,7 @@ int main() {
 
     if( N % 2 == 1 ) {
         printf("Series: ");
-        for( i = 1; i <= N; i+=2 ) {
+        for( i = 1 ; i <= N; i+=2 ) {
             printf(" %d", i);
         }
     }
